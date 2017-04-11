@@ -87,7 +87,7 @@
                 <td>{{date('d-M-Y', strtotime($application->application_date))}}</td>
                 <td>{{date('d-M-Y', strtotime($application->applied_start_date))}}</td>
                 <td>{{date('d-M-Y', strtotime($application->applied_end_date))}}</td>
-                <td>{{Leaveapplication::getDays($application->applied_end_date,$application->applied_start_date,$application->is_weekend,$application->is_holiday)+1}}</td>
+                <td>{{Leaveapplication::getDays($application->applied_start_date,$application->applied_end_date,$application->is_weekend,$application->is_holiday)+1}}</td>
                 
                 <td>
                   <div class="btn-group">

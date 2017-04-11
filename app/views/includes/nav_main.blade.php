@@ -14,6 +14,14 @@
                         <a href="{{ URL::to('employees') }}"><i class="fa fa-users fa-fw"></i> Employees </a>
                     </li>
 
+                    <li>
+                        <a href="{{ URL::to('Properties') }}"><i class="fa fa-list fa-fw"></i>Company Property </a>
+                    </li>
+
+                     <li><a href="{{ URL::to('Appraisals') }}"><i class="fa fa-list fa-fw"></i>Employee Appraisal</a></li>
+                     <li><a href="{{ URL::to('occurences') }}"><i class="fa fa-list fa-fw"></i>Employee Occurence </a></li>
+                     <li><a href="{{ URL::to('deactives') }}"><i class="fa fa-list fa-fw"></i>Activate Employee</a></li>
+
                      <li>
                         <a href="{{ URL::to('reports/employees') }}"><i class="fa fa-folder fa-fw"></i> Reports </a>
                     </li>

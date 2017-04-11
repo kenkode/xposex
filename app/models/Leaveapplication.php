@@ -26,6 +26,10 @@ class Leaveapplication extends \Eloquent {
 		return $this->belongsTo('Employee');
 	}
 
+    public static function getEmployee($id){
+		$employee = Employee::find($id);
+		return $employee->first_name.' '.$employee->last_name;
+	}
 
 	public function leavetype(){
 

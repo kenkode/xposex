@@ -112,7 +112,6 @@ $('.datepicker').datepicker({
     endDate: '+0d',
     autoclose: true,
     orientation: "bottom"
-<<<<<<< HEAD
 });
 });
 
@@ -126,8 +125,6 @@ $('.datepicker60').datepicker({
     startDate: '-60y',
     autoclose: true,
     orientation: "bottom"
-=======
->>>>>>> fdb9268d58459c6704f42379dfba7735ef3a3a6a
 });
 });
 
