@@ -567,7 +567,8 @@ class UsersController extends Controller
         $user->confirmation_code     = md5(uniqid(mt_rand(), true));
          echo '<pre>';
        
-     
+        $user->save();
+        
         foreach ($roles as $rol) {
                 
             $role = Role::find($rol);
